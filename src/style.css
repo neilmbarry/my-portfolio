@@ -99,7 +99,8 @@ header {
   position: relative; }
   .landing-subtitle {
     color: #8c8c8c;
-    font-weight: 300; }
+    font-weight: 300;
+    font-size: 1.5rem; }
   .landing-image {
     position: absolute;
     width: 800px;
@@ -317,13 +318,14 @@ header {
       box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.492); }
   .projects-image {
     min-height: 16rem;
-    padding: 1rem;
-    background-color: #888888;
+    padding: 1.5rem;
+    background-image: url(/src/bg.svg);
     transition: all ease 0.3s;
     overflow: hidden; }
     .projects-image:hover img {
       transform: scale(1.04);
-      transition: all ease 0.3s; }
+      transition: all ease 0.3s;
+      box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.312); }
   .projects-info {
     padding: 1.4rem;
     flex-direction: column;
@@ -336,6 +338,13 @@ header {
   .projects-bio {
     flex: 1;
     margin-bottom: auto; }
+  .projects-title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+
+.gold {
+  font-size: 1.5rem; }
 
 .small-link {
   color: black;
@@ -362,6 +371,16 @@ header {
     background-color: #3e54a213;
     bottom: 100px;
     left: -100px;
+    z-index: -3;
+    border-radius: 1000px; }
+  .bio::before {
+    content: "";
+    width: 500px;
+    position: absolute;
+    height: 500px;
+    background-color: #3e87a217;
+    bottom: -300px;
+    right: -100px;
     z-index: -3;
     border-radius: 1000px; }
   .bio-title {

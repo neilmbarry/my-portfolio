@@ -148,7 +148,7 @@ header {
   &-subtitle {
     color: rgb(140, 140, 140);
     font-weight: 300;
-    // font-size: 1.9rem;
+    font-size: 1.5rem;
   }
   &-image {
     position: absolute;
@@ -429,13 +429,15 @@ header {
   }
   &-image {
     min-height: 16rem;
-    padding: 1rem;
-    background-color: rgb(136, 136, 136);
+    padding: 1.5rem;
+    // background-color: rgb(136, 136, 136);
+    background-image: url(/src/bg.svg);
     transition: all ease 0.3s;
     overflow: hidden;
     &:hover img {
       transform: scale(1.04);
       transition: all ease 0.3s;
+      box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.312);
     }
   }
   &-info {
@@ -453,6 +455,17 @@ header {
     flex: 1;
     margin-bottom: auto;
   }
+  &-title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.gold {
+  // color: rgb(255, 196, 0);
+  font-size: 1.5rem;
+  // margin-right: 0rem;
 }
 
 .small-link {
@@ -488,6 +501,17 @@ header {
     background-color: #3e54a213;
     bottom: 100px;
     left: -100px;
+    z-index: -3;
+    border-radius: 1000px;
+  }
+  &::before {
+    content: "";
+    width: 500px;
+    position: absolute;
+    height: 500px;
+    background-color: #3e87a217;
+    bottom: -300px;
+    right: -100px;
     z-index: -3;
     border-radius: 1000px;
   }
