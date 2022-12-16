@@ -216,13 +216,14 @@ header {
   .skills-container {
     text-align: center;
     width: 95%;
+    max-width: 1200px;
     padding: 2rem 0;
     margin: auto;
     display: flex;
     flex-direction: column; }
   .skills-boxes {
     display: flex;
-    gap: 3rem;
+    gap: 0rem;
     margin-top: 2rem; }
   .skills-box {
     display: flex;

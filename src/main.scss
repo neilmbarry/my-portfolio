@@ -298,6 +298,7 @@ header {
   &-container {
     text-align: center;
     width: 95%;
+    max-width: 1200px;
     padding: 2rem 0;
     margin: auto;
     display: flex;
@@ -306,7 +307,7 @@ header {
   }
   &-boxes {
     display: flex;
-    gap: 3rem;
+    gap: 0rem;
     margin-top: 2rem;
   }
   &-box {
