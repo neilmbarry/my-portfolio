@@ -75,7 +75,7 @@ header {
   justify-content: space-between;
   max-width: 1100px;
   margin: auto;
-  padding: 1rem 0;
+  padding: 1rem 2rem;
   align-items: center; }
   .nav-links {
     display: flex;
@@ -90,9 +90,11 @@ header {
     font-size: 2rem; }
 
 .landing {
-  height: 80vh;
+  min-height: 600px;
+  height: 70vh;
   max-width: 1100px;
   margin: auto;
+  padding: 2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -332,6 +334,7 @@ header {
     flex-direction: column;
     display: flex;
     gap: 1.4rem;
+    background-color: white;
     border-top: 1px solid #dbdbdb; }
   .projects-types {
     display: flex;
@@ -471,3 +474,41 @@ header {
 .footer {
   background-color: #3e53a2;
   height: 150px; }
+
+@media screen and (max-width: 1024px) {
+  .projects-boxes {
+    flex-direction: column; } }
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 768px) {
+  .landing-image {
+    width: 651px;
+    left: 181px;
+    bottom: -41px; }
+  .skills-box {
+    min-width: 300px; }
+  .skills-boxes {
+    flex-wrap: wrap; } }
+
+@media screen and (max-width: 480px) {
+  .landing::after {
+    display: none; }
+  .landing-image {
+    display: none; }
+  .landing-icons {
+    display: none; }
+  .landing-box {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center; }
+  .bio-container {
+    padding: 1rem 2rem; }
+  .projects-container h6 {
+    width: auto; }
+  .projects-image {
+    min-height: auto; }
+  .additional-container {
+    padding: 1rem 2rem; }
+  .projects-boxes {
+    margin: 0; } }
