@@ -322,7 +322,7 @@ header {
   .projects-image {
     min-height: 16rem;
     padding: 1.5rem;
-    background-image: url(/src/bg.svg);
+    background-image: url(bg.svg);
     transition: all ease 0.3s;
     overflow: hidden; }
     .projects-image:hover img {
@@ -413,18 +413,33 @@ header {
     .bio-subtitle h3 {
       width: 10%; }
 
+.additional::before {
+  content: " ";
+  display: block;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 36px;
+  background: linear-gradient(#ffffff 0%, transparent 0%), linear-gradient(135deg, #3e53a2 33.33%, transparent 33.33%) 0 0%, #3e53a2 linear-gradient(45deg, #3e53a2 33.33%, #ffffff 33.33%) 0 0%;
+  background: -webkit-linear-gradient(#ffffff 0%, transparent 0%), -webkit-linear-gradient(135deg, #3e53a2 33.33%, transparent 33.33%) 0 0%, #3e53a2 -webkit-linear-gradient(45deg, #3e53a2 33.33%, #ffffff 33.33%) 0 0%;
+  background: -o-linear-gradient(#ffffff 0%, transparent 0%), -o-linear-gradient(135deg, #3e53a2 33.33%, transparent 33.33%) 0 0%, #3e53a2 -o-linear-gradient(45deg, #3e53a2 33.33%, #ffffff 33.33%) 0 0%;
+  background: -moz-linear-gradient(#ffffff 0%, transparent 0%), -moz-linear-gradient(135deg, #3e53a2 33.33%, transparent 33.33%) 0 0%, #3e53a2 -moz-linear-gradient(45deg, #3e53a2 33.33%, #ffffff 33.33%) 0 0%;
+  background-repeat: repeat-x;
+  background-size: 0px 100%, 9px 27px, 9px 27px; }
+
 .additional {
+  background-color: #3e53a2;
   text-align: center; }
   .additional-container {
     padding: 4rem 12rem;
-    margin: 2rem auto;
+    margin: 0rem auto;
     display: flex;
     gap: 1rem;
     max-width: 1200px;
     flex-direction: column;
     justify-content: space-between;
-    border-radius: 10px;
-    background-color: #3e53a2; }
+    border-radius: 10px; }
     .additional-container h3,
     .additional-container h4,
     .additional-container h5,
