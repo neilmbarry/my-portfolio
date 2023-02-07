@@ -186,41 +186,33 @@
         <h6>Latest Projects</h6>
 
         <div class="projects-boxes">
-          <div class="projects-box">
+         <div class="projects-box">
             <div class="projects-image">
-              <img src="cheetsheet.jpg" alt="" />
+              <img src="simp.jpg" alt="" />
             </div>
             <div class="projects-info">
-              <div class="projects-title-container">
-                <h4 class="projects-title">Cheet/Sheet</h4>
-                <!-- <i class="fa-solid fa-star gold"></i> -->
-              </div>
+              <h4 class="projects-title">Simpl.</h4>
               <div class="projects-types">
                 <h5 class="projects-type lightblue">React</h5>
                 <h5 class="projects-type darkblue">Node</h5>
                 <h5 class="projects-type purple">Express</h5>
                 <h5 class="projects-type green">MongoDB</h5>
-                <!-- <h5 class="projects-type green">Node</h5>
-                <h5 class="projects-type lightgreen">MongoDB</h5> -->
               </div>
               <p class="projects-bio">
-                With this all-in-one cocktail application you can create, edit,
-                find and share all the cocktails. All cocktails are saved to a
-                database on the backend.
+                Simpl. is a full-stack e-commerce platform for wardrobe sharing. You can search the
+                online database of user-submitted products, add reviews and favourites, and even submit your own items too!
               </p>
               <div class="projects-buttons-container">
-                <a href="https://cheat-sheet-app.vercel.app/" target="_blank">
+                <a href="https://simp-app.vercel.app/" target="_blank">
                   <button class="projects-button">Demo</button>
                 </a>
-                <a
-                  href="https://github.com/neilmbarry/CheatSheet-App"
-                  target="_blank"
-                >
+                <a href="https://github.com/neilmbarry/SimpApp" target="_blank">
                   <button class="projects-button">Source Code</button>
                 </a>
               </div>
             </div>
           </div>
+          
           <div class="projects-box">
             <div class="projects-image">
               <img src="shiphead.jpg" alt="" />
@@ -234,8 +226,8 @@
                 <h5 class="projects-type orange">Socket.io</h5>
               </div>
               <p class="projects-bio">
-                This easy to learn card game can be played against the computer,
-                or with friends utilizing Socket.io as a live connection.
+                This easy to learn card game utilizes Socket.io as a live connection. Users can play against up to 3 opponents, either the computer,
+                or with friends on separate devices!
               </p>
               <div class="projects-buttons-container">
                 <a href="https://ship-head.vercel.app/" target="_blank">
@@ -252,26 +244,32 @@
           </div>
           <div class="projects-box">
             <div class="projects-image">
-              <img src="simp.jpg" alt="" />
+              <img src="cheetsheet.jpg" alt="" />
             </div>
             <div class="projects-info">
-              <h4 class="projects-title">Simpl.</h4>
+              <div class="projects-title-container">
+                <h4 class="projects-title">Cheat/Sheet</h4>
+                <!-- <i class="fa-solid fa-star gold"></i> -->
+              </div>
               <div class="projects-types">
                 <h5 class="projects-type lightblue">React</h5>
                 <h5 class="projects-type darkblue">Node</h5>
                 <h5 class="projects-type purple">Express</h5>
-                <h5 class="projects-type orange">MongoDB</h5>
+                <h5 class="projects-type green">MongoDB</h5>
+                <!-- <h5 class="projects-type green">Node</h5>
+                <h5 class="projects-type lightgreen">MongoDB</h5> -->
               </div>
               <p class="projects-bio">
-                This e-commerce app is a simple clone of Turo, a popular ride
-                sharing platform, showcasing apparel instead. You can search the
-                online database and add your own items too.
+                With this all-in-one full-stack (MERN) cocktail application users can create, edit and share cocktail information cards. Users can save favourties, add reviews and browse the online database!
               </p>
               <div class="projects-buttons-container">
-                <a href="https://simp-app.vercel.app/" target="_blank">
+                <a href="https://cheat-sheet-app.vercel.app/" target="_blank">
                   <button class="projects-button">Demo</button>
                 </a>
-                <a href="https://github.com/neilmbarry/SimpApp" target="_blank">
+                <a
+                  href="https://github.com/neilmbarry/CheatSheet-App"
+                  target="_blank"
+                >
                   <button class="projects-button">Source Code</button>
                 </a>
               </div>
